@@ -10,10 +10,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ```bash
 docker build -t dockernextjs-app .
-2️⃣ Run the container with live reload:
-bash
-Copy
-Edit
+
 docker run -p 3000:3000 -v ${PWD}:/app -w /app dockernextjs-app npm run dev
 🧠 This command:
 
@@ -28,21 +25,9 @@ Runs npm run dev inside /app
 🛠️ Editing Your Project
 You can modify the app by editing app/page.tsx (or any other page/component). Changes will automatically reflect in the browser thanks to Next.js hot reloading.
 
-🏗️ Building for Production
-1️⃣ Build a production-ready Docker image:
-bash
-Copy
-Edit
-docker build -t dockernextjs-app-prod -f Dockerfile.prod .
-2️⃣ Run the production container:
-bash
-Copy
-Edit
 docker run -p 3000:3000 dockernextjs-app-prod
 📦 Sample Dockerfile (Development)
-dockerfile
-Copy
-Edit
+
 # Use official Node.js 18 image
 FROM node:18-alpine
 
