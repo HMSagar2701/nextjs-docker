@@ -61,26 +61,3 @@ EXPOSE 3000
 
 # Start development server
 CMD ["npm", "run", "dev"]
-📚 Learn More
-📘 Next.js Documentation
-
-📙 Learn Next.js (Interactive)
-
-🐙 Next.js GitHub Repository
-
-☁️ Deploy on Vercel
-You can deploy this app effortlessly on Vercel, the platform by the creators of Next.js.
-
-📄 Read the Next.js deployment docs for more details.
-
-🗂 Recommended .dockerignore
-dockerignore
-Copy
-Edit
-node_modules
-.next
-.git
-Dockerfile
-.dockerignore
-*.log
-.env
